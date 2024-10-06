@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
 
-  const name = 'fer'
+  const name = 'sejam todos bem vindos'
 
   const newName = name.toUpperCase()
 
@@ -14,9 +14,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1> Olá</h1>
-      <h2> Ola {newName}</h2>
-      <h3> Some: {sum(1, 2)}</h3>
+      <h1> Ola {newName}</h1>
+      <h2> Some: {sum(1, 2)}</h2>
       <img src={url} alt=" minha img" />
     </div>
   );
