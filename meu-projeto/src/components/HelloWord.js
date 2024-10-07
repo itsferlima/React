@@ -9,4 +9,4 @@ function HellowWord () {
     )
  }
 
-export default HellowWord
+export default HellowWord;
