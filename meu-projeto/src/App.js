@@ -1,4 +1,5 @@
 import './App.css';
+import HellowWord from './components/HelloWord';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <h1> Ola {newName}</h1>
       <h2> Some: {sum(1, 2)}</h2>
       <img src={url} alt=" minha img" />
+      <HellowWord/>
     </div>
   );
 }
