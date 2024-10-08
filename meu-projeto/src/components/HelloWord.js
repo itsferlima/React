@@ -4,7 +4,8 @@ function HellowWord () {
     return (
         <div>
             <Frase/>
-            <h1>Meu primeiro componente</h1>
+            <h1>Welcome to my website</h1>
+
         </div>
     )
  }
