@@ -2,10 +2,14 @@ import Item from './Item'
 
 function List (){
     return (
-        <div>
+        <>
             <h1>Minha lista</h1>
-            <Item marca="ferraria"/>
-        </div>
+            <ul>
+            <Item marca="ferrari"/>
+            <Item marca="posche"/>
+            <Item marca="lambo"/>
+            </ul>
+        </>
     )   
 }
 
